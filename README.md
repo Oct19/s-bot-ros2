@@ -2,7 +2,7 @@
 
 A ROS2 package. [Github](https://github.com/Oct19/s_bot)
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `s-bot-ros2` to whatever your project's name is.
+It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `s_bot_ros2` to whatever your project's name is.
 
 Install dependencies:
 
@@ -33,7 +33,9 @@ ros-humble-joint-state-publisher-gui
 1. Use launch file to launch robot_state_publisher with urdf as robot_description
 
    ```
-   ros2 launch src/s_bot/launch/rsp.launch.py
+   # direct to ros workspace folder
+   # remember to build and source your setup.bash
+   ros2 launch src/s_bot_ros2/launch/rsp.launch_example.py
    ```
 2. Brodcast transform
 
@@ -57,6 +59,10 @@ ros-humble-joint-state-publisher-gui
    ros2 run tf2_tools view_frames
    ```
 2. Check output .pdf file for frame info
+
+## Solidworks to URDF
+
+1. The generated urdf file's link for STL model is not working. Replace `package://` with absolute location `file:///home/....basklink.STL`
 
 ## Reference
 
