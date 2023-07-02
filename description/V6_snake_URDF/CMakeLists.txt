@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(B_snake_URDF.SLDASM)
+project(V6_snake_URDF)
 
 find_package(catkin REQUIRED)
 

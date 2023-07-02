@@ -3,22 +3,22 @@
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="B_snake_URDF.SLDASM">
+  name="V6_snake_URDF">
   <link
     name="base_link">
     <inertial>
       <origin
-        xyz="-6.0019E-19 -0.025 1.5308E-18"
+        xyz="-6.00193186120165E-19 -0.025 1.53075794227797E-18"
         rpy="0 0 0" />
       <mass
-        value="0.0014137" />
+        value="0.00141371669411541" />
       <inertia
-        ixx="3.0901E-07"
-        ixy="4.5457E-39"
-        ixz="-1.5358E-40"
-        iyy="2.8981E-08"
-        iyz="1.7147E-23"
-        izz="3.0901E-07" />
+        ixx="3.09014907388726E-07"
+        ixy="4.5457171897477E-39"
+        ixz="-1.53575401744575E-40"
+        iyy="2.89811922293659E-08"
+        iyz="1.71465533434319E-23"
+        izz="3.09014907388726E-07" />
     </inertial>
     <visual>
       <origin
@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/base_link.STL" />
+          filename="package://V6_snake_URDF/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/base_link.STL" />
+          filename="package://V6_snake_URDF/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -48,17 +48,17 @@
     name="snake_start_link">
     <inertial>
       <origin
-        xyz="1.2416E-09 -4.4549E-05 -0.0095707"
+        xyz="1.24160955017755E-09 -4.45492593524487E-05 -0.00957068753862889"
         rpy="0 0 0" />
       <mass
-        value="0.00071324" />
+        value="0.000713238856062597" />
       <inertia
-        ixx="3.1719E-08"
-        ixy="-2.2099E-14"
-        ixz="2.9749E-15"
-        iyy="3.1792E-08"
-        iyz="3.6371E-10"
-        izz="8.4865E-09" />
+        ixx="3.17193124467156E-08"
+        ixy="-2.20994755072542E-14"
+        ixz="2.97494751897254E-15"
+        iyy="3.17923732905446E-08"
+        iyz="3.6370682285876E-10"
+        izz="8.48646547018518E-09" />
     </inertial>
     <visual>
       <origin
@@ -66,12 +66,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/snake_start_link.STL" />
+          filename="package://V6_snake_URDF/meshes/snake_start_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/snake_start_link.STL" />
+          filename="package://V6_snake_URDF/meshes/snake_start_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -106,17 +106,17 @@
     name="shoulder_link">
     <inertial>
       <origin
-        xyz="5.7843E-08 -0.00055751 0.0025749"
+        xyz="5.78425918277461E-08 -0.000557511336345803 0.00257487919106872"
         rpy="0 0 0" />
       <mass
-        value="0.00011415" />
+        value="0.000114145071751143" />
       <inertia
-        ixx="7.4251E-10"
-        ixy="-5.3952E-14"
-        ixz="1.8424E-14"
-        iyy="8.8662E-10"
-        iyz="-4.9693E-12"
-        izz="1.2304E-09" />
+        ixx="7.42514291105753E-10"
+        ixy="-5.39522630107474E-14"
+        ixz="1.84240253801457E-14"
+        iyy="8.86624025245541E-10"
+        iyz="-4.969337287048E-12"
+        izz="1.2304404774517E-09" />
     </inertial>
     <visual>
       <origin
@@ -124,12 +124,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/shoulder_link.STL" />
+          filename="package://V6_snake_URDF/meshes/shoulder_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/shoulder_link.STL" />
+          filename="package://V6_snake_URDF/meshes/shoulder_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -164,17 +164,17 @@
     name="upperarm_link">
     <inertial>
       <origin
-        xyz="-6.4381E-09 1.461E-07 0.012946"
+        xyz="-6.43813924643318E-09 1.46099472408447E-07 0.0129457663941619"
         rpy="0 0 0" />
       <mass
-        value="0.00066722" />
+        value="0.000667220219941384" />
       <inertia
-        ixx="3.3843E-08"
-        ixy="4.6496E-14"
-        ixz="-3.0799E-14"
-        iyy="3.395E-08"
-        iyz="7.5403E-10"
-        izz="7.4625E-09" />
+        ixx="3.38428069088239E-08"
+        ixy="4.6496287404122E-14"
+        ixz="-3.07986658596154E-14"
+        iyy="3.39499671411492E-08"
+        iyz="7.54026676061116E-10"
+        izz="7.46250320454321E-09" />
     </inertial>
     <visual>
       <origin
@@ -182,12 +182,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/upperarm_link.STL" />
+          filename="package://V6_snake_URDF/meshes/upperarm_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/upperarm_link.STL" />
+          filename="package://V6_snake_URDF/meshes/upperarm_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -205,7 +205,7 @@
     type="revolute">
     <origin
       xyz="0 0 0.005"
-      rpy="0 0 -3.1416" />
+      rpy="0 0 -3.14159265358979" />
     <parent
       link="shoulder_link" />
     <child
@@ -222,17 +222,17 @@
     name="elbow_link">
     <inertial>
       <origin
-        xyz="5.7843E-08 -0.00055751 0.0025749"
+        xyz="5.78425918213392E-08 -0.000557511336345775 0.00257487919106873"
         rpy="0 0 0" />
       <mass
-        value="0.00011415" />
+        value="0.000114145071751143" />
       <inertia
-        ixx="7.4251E-10"
-        ixy="-5.3952E-14"
-        ixz="1.8424E-14"
-        iyy="8.8662E-10"
-        iyz="-4.9693E-12"
-        izz="1.2304E-09" />
+        ixx="7.42514291105759E-10"
+        ixy="-5.39522630108521E-14"
+        ixz="1.84240253795315E-14"
+        iyy="8.86624025245547E-10"
+        iyz="-4.96933728704794E-12"
+        izz="1.23044047745171E-09" />
     </inertial>
     <visual>
       <origin
@@ -240,12 +240,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/elbow_link.STL" />
+          filename="package://V6_snake_URDF/meshes/elbow_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -254,7 +254,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/elbow_link.STL" />
+          filename="package://V6_snake_URDF/meshes/elbow_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -280,17 +280,17 @@
     name="forearm_link">
     <inertial>
       <origin
-        xyz="-1.5817E-08 0.00011358 0.0066338"
+        xyz="-1.58174478649762E-08 0.000113577337572625 0.00663378686142239"
         rpy="0 0 0" />
       <mass
-        value="0.00027925" />
+        value="0.000279249014923545" />
       <inertia
-        ixx="5.1214E-09"
-        ixy="-9.0875E-15"
-        ixz="-2.1113E-14"
-        iyy="5.1602E-09"
-        iyz="1.9093E-10"
-        izz="3.2376E-09" />
+        ixx="5.12138448350693E-09"
+        ixy="-9.0875146547501E-15"
+        ixz="-2.11131737053282E-14"
+        iyy="5.16018470733378E-09"
+        iyz="1.90926868836851E-10"
+        izz="3.23762727773142E-09" />
     </inertial>
     <visual>
       <origin
@@ -298,12 +298,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/forearm_link.STL" />
+          filename="package://V6_snake_URDF/meshes/forearm_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -312,7 +312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/forearm_link.STL" />
+          filename="package://V6_snake_URDF/meshes/forearm_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -320,8 +320,8 @@
     name="elbow_joint_dist"
     type="revolute">
     <origin
-      xyz="0 0 0.005"
-      rpy="0 0 3.1416" />
+      xyz="0 0 0.00500000000000002"
+      rpy="0 0 3.14159265358979" />
     <parent
       link="elbow_link" />
     <child
@@ -338,17 +338,17 @@
     name="hand_link">
     <inertial>
       <origin
-        xyz="-4.0814E-10 -9.1588E-10 0.011037"
+        xyz="-4.08142888056513E-10 -9.15879971724246E-10 0.011037074265158"
         rpy="0 0 0" />
       <mass
-        value="0.00040496" />
+        value="0.000404964898437663" />
       <inertia
-        ixx="1.3566E-08"
-        ixy="7.1234E-15"
-        ixz="-8.9589E-16"
-        iyy="1.4395E-08"
-        iyz="3.0522E-15"
-        izz="3.3828E-09" />
+        ixx="1.35662740180767E-08"
+        ixy="7.12341238548104E-15"
+        ixz="-8.95894024126752E-16"
+        iyy="1.43952427195592E-08"
+        iyz="3.05221398270557E-15"
+        izz="3.38277628514735E-09" />
     </inertial>
     <visual>
       <origin
@@ -356,12 +356,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/hand_link.STL" />
+          filename="package://V6_snake_URDF/meshes/hand_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -370,7 +370,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/hand_link.STL" />
+          filename="package://V6_snake_URDF/meshes/hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -396,17 +396,17 @@
     name="gripper_1">
     <inertial>
       <origin
-        xyz="-0.00064476 0.0018039 0.0039496"
+        xyz="-0.00064475917825679 0.00180385117361328 0.00394960361493563"
         rpy="0 0 0" />
       <mass
-        value="9.5944E-05" />
+        value="9.59439630385687E-05" />
       <inertia
-        ixx="1.9226E-09"
-        ixy="-1.0153E-10"
-        ixz="-2.2769E-10"
-        iyy="1.7011E-09"
-        iyz="-6.335E-10"
-        izz="4.994E-10" />
+        ixx="1.92258072211134E-09"
+        ixy="-1.01528315485198E-10"
+        ixz="-2.27687484832753E-10"
+        iyy="1.70112204989544E-09"
+        iyz="-6.33499031928457E-10"
+        izz="4.99400354933341E-10" />
     </inertial>
     <visual>
       <origin
@@ -414,12 +414,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/gripper_1.STL" />
+          filename="package://V6_snake_URDF/meshes/gripper_1.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.79216 0.81961 0.93333 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -428,7 +428,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/gripper_1.STL" />
+          filename="package://V6_snake_URDF/meshes/gripper_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -437,7 +437,7 @@
     type="revolute">
     <origin
       xyz="0 0 0.019"
-      rpy="0.3293 0 0" />
+      rpy="0.329304747776595 0 0" />
     <parent
       link="hand_link" />
     <child
@@ -472,7 +472,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/gripper_2.STL" />
+          filename="package://V6_snake_URDF/meshes/gripper_2.STL" />
       </geometry>
       <material
         name="">
@@ -486,7 +486,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://B_snake_URDF.SLDASM/meshes/gripper_2.STL" />
+          filename="package://V6_snake_URDF/meshes/gripper_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -495,7 +495,7 @@
     type="revolute">
     <origin
       xyz="0 0 0.019"
-      rpy="0.3293 0 3.1416" />
+      rpy="0.329304747776595 0 3.14159265358979" />
     <parent
       link="hand_link" />
     <child
